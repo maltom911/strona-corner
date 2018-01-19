@@ -1,0 +1,134 @@
+/*Subpage General Style*/
+
+body {
+    margin: 0;
+    font-family: 'Lato', sans-serif;
+    color: #000;
+    background-color: rgb(247, 247, 247);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Montserrat', sans-serif;
+    color: #333;
+    font-size: 40px;
+}
+
+#main-nav a {
+    color: black;
+}
+
+.main-paragraph {
+    font-size: 30px;
+    margin: 0 0 10px 0;
+}
+
+.paragraph-features {
+    font-size: 22px;
+}
+
+.paragraph-features p {
+    font-size: 22px;
+    border-bottom: 2px solid #0ed8d6;
+}
+
+.logo-button {
+   
+    margin: 0 200px 0 200px;
+    height: 70px;
+}
+.navbar-brand {
+    position: absolute;
+}
+
+.btn-default {
+    margin-top: 10px;
+    float: right;
+}
+
+#products-detailed {
+    padding-top: 15px;
+}
+
+/*Subpage General Style End*/
+
+/*Ręczniki ZZ Style*/
+
+.detail-row {
+    margin-bottom: 5%;
+}
+#products-detailed .detail-single-product-item {
+    background: #fff;
+}
+
+
+#products-detailed .detail-product-image-container {
+    height: 300px;
+    overflow: hidden;
+    border: 3px solid lightgray;
+}
+
+#products-detailed .detail-product-image {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    position: relative;
+    transition: .3s;
+}
+
+#products-detailed .detail-product-image:hover {
+    transform: scale(1.2);
+}
+
+.detail-product-image-mask > a {
+    height: 100%;
+    display: inline-block;
+    width: 100%;
+    position: absolute;
+}
+
+
+#products-detailed .detail-single-product-item .detail-product-image .detail-product-image-mask {
+    background-color: rgba(42, 61, 79, 0.8);
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transition: all .3s;
+    cursor: pointer;
+    border: 2px solid black;
+}
+
+#products-detailed .detail-single-product-item .detail-product-image .detail-product-image-mask:hover {
+    opacity: 0.5;
+}
+
+#products-detailed .detail-single-product-item .detail-product-image .detail-product-image-mask .fa {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    font-size: 3em;
+  
+}
+
+
+
+#detail-product-item-5-a {
+    background-image: url(../img/zz/zz.jpg);
+}
+
+#detail-product-item-5-b {
+    background-image: url(../img/zz/zz_bialy.jpg);
+}
+
+#detail-product-item-5-c {
+    background-image: url(../img/zz/zz_bialy.jpg);
+}
+/*Ręczniki ZZ Style End*/
