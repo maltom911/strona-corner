@@ -1,92 +1,92 @@
-/* General Styles */
+@media all and (max-width: 1025px) {
+    .count-container {
+    width: 90px;
+    height: 90px;
+    }
+    
+    .wrapper {
+        height: 253px;
+    }
+    .count {
+        font-size: 38px;
+    }
 
+    .front-first p:nth-child(2) {
+        font-size: 21px;
+        left: 43%;
+    }
 
-/* General Styles End */
+    .front-second p {
+        font-size: 21px;
+        left: 35%;
+        top: 54%;
+    }
 
-
-
-
-/* Main Menu Styles */
-
-@media all and (max-width: 786px) {
-	#main-nav, #main-nav.scroll {
-		background-color: #fff;
-	}
-	
-	#main-nav a, #main-nav.scroll a {
-		color: #0ed8d6;
-	}
-	
-	#main-nav a:hover, #main-nav.scroll a:hover {
-		color: #777777;
-	}
-	
-	#main-nav .navbar-toggle {
-		background-color: #fff;
-		transition: all .3s;
-	}
-	
-	#main-nav .navbar-toggle:hover {
-		background-color: #0ed8d6;
-	}
-	
-	#main-nav .icon-bar {
-		background-color: #0ed8d6;
-	}
-	
-	#main-nav .navbar-toggle:hover .icon-bar {
-		background-color: #fff;
-	}
+    .front-third p {
+        font-size: 21px;
+        left: 40%;
+        top: 54%;
+    }
+    
+    .back-first {
+        font-size: 16px;
+    }
+    
+     .back-second {
+        font-size: 15px;
+    }
+    
+     .back-third {
+        font-size: 17px;
+    }
+    
+      .contact-general-numbers,
+    .contact-specified-numbers {
+        font-size: 15px;
+    } 
 }
 
-/* Main Menu Styles End */
+@media all and (max-width: 1281px) {
+    .front-first p:nth-child(2) {
+        left: 38%;
+    }
 
+    .front-second p {
+        left: 33%;
+    }
 
+    .front-third p {
+        left: 36%;
+    }
 
-
-/* Main Header Styles */
-@media all and (max-width: 480px) {
-
-	#main-header .header-caption h1 {
-		font-size: 2.8em;
-	}
-
-	#main-header .header-caption h2 {
-		font-size: 1.5em;
-	}
+    .contact-general-numbers,
+    .contact-specified-numbers {
+        font-size: 18px;
+    }
 }
 
-/* Main Header Styles End */
-
-/* Section Contact */
-
-@media all and (max-width: 786px) {
-	#contact [class*='col-'] {
-		margin-bottom: 30px;
-	}
+@media all and (max-width: 1367px) {
+    .wrapper {
+        width: 99%;
+    }
+    .contact-general-numbers,
+    .contact-specified-numbers {
+        font-size: 19px;
+    }
 }
 
-/* Section Contact End */
+@media all and (max-width: 1441px) {
+    .front-first p:nth-child(2) {
+        left: 38%;
+    }
 
+    .front-second p {
+        left: 35%;
+    }
 
-/* Footer */
-
-@media all and (max-width: 992px) {
-	
-	#main-footer ul {
-		padding: 0;
-	}
+    .front-third p {
+        left: 37%;
+    }
 }
 
-@media all and (max-width: 786px) {
-	#main-footer {
-		text-align: center;
-	}
-	
-	#main-footer ul li {
-		margin: 0;
-		padding: 5px;
-	}
-}
 
-/* Footer End */

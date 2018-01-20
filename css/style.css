@@ -222,6 +222,7 @@ h1 {
 }
 
 .wrapper {
+    width: 86%;
     position: relative;
     margin: 0 auto;
     height: 275px;
@@ -265,8 +266,8 @@ h1 {
     border-top-right-radius: 2%;
     border-top-left-radius: 2%;
     border-bottom-left-radius: 17%;
-    border-bottom-right-radius: 29%;
-    border-bottom: 27px solid black;
+    border-bottom-right-radius: 17%;
+    border-bottom: 15px solid black;
 }
 
 .box-2 {
@@ -274,18 +275,17 @@ h1 {
     border-top-left-radius: 2%;
     border-bottom-left-radius: 29%;
     border-bottom-right-radius: 17%;
-    border-bottom: 27px solid black;
+    border-bottom: 15px solid black;
 }
 
 .box-1,
 .box-2 {
-    height: 275px;
-    width: 420px;
-    margin: 20px;
+    height: 100%;
+    width: 100%;
 }
 
 .wrapper .front {
-    left: 18px;
+    width: 100%;
     height: inherit;
     position: absolute;
     top: 0;
@@ -305,7 +305,7 @@ h1 {
 }
 
 .wrapper .back {
-    left: 18px;
+    width: 100%;
     height: inherit;
     position: absolute;
     top: 0;
@@ -338,7 +338,7 @@ h1 {
 .front-first p:nth-child(2) {
     font-size: 30px;
     position: absolute;
-    top: 52%;
+    top: 49%;
     transform: translateY(-50%);
     left: 36%;
     margin: 0;
@@ -359,7 +359,7 @@ h1 {
 .front-second p {
     font-size: 30px;
     position: absolute;
-    top: 58%;
+    top: 55%;
     transform: translateY(-50%);
     left: 28%;
     margin: 0;
@@ -368,7 +368,7 @@ h1 {
 .front-third p {
     font-size: 28px;
     position: absolute;
-    top: 58%;
+    top: 55%;
     transform: translateY(-50%);
     left: 28%;
     margin: 0;
@@ -385,7 +385,7 @@ h1 {
     border-radius: 50px;
     margin: 5px;
     position: absolute;
-    top: 50%;
+    top: 46%;
     transform: translateY(-50%);
     left: 10%;
 }
@@ -411,10 +411,6 @@ h1 {
     background-color: rgb(247, 247, 247);
 }
 
-.container-fluid {
-    padding-right: 50px;
-    padding-left: 50px;
-}
 
 .section-description {
     font-size: 20px;
@@ -560,6 +556,7 @@ h1 {
     background-size: cover;
     background-repeat: no-repeat;
     height: 100vh;
+    padding-top: 28px;
 }
 
 #contact h5 {
