@@ -90,6 +90,7 @@ h6 {
     display: inline-block;
     width: 100%;
     position: absolute;
+    left: 0;
 }
 
 
@@ -125,7 +126,7 @@ h6 {
 }
 
 #detail-product-item-5-b {
-    background-image: url(../img/zz/zz_bialy.jpg);
+    background-image: url(../img/zz/zz_bialy_celuloza.jpg);
 }
 
 #detail-product-item-5-c {
