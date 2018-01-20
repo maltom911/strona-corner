@@ -1,9 +1,14 @@
 @media all and (max-width: 1025px) {
-    .count-container {
-    width: 90px;
-    height: 90px;
+
+    #products .single-product-item p {
+        font-size: 19px;
     }
-    
+
+    .count-container {
+        width: 90px;
+        height: 90px;
+    }
+
     .wrapper {
         height: 253px;
     }
@@ -12,60 +17,82 @@
     }
 
     .front-first p:nth-child(2) {
-        font-size: 21px;
-        left: 43%;
-    }
-
-    .front-second p {
-        font-size: 21px;
-        left: 35%;
-        top: 54%;
-    }
-
-    .front-third p {
-        font-size: 21px;
-        left: 40%;
-        top: 54%;
-    }
-    
-    .back-first {
-        font-size: 16px;
-    }
-    
-     .back-second {
-        font-size: 15px;
-    }
-    
-     .back-third {
         font-size: 17px;
-    }
-    
-      .contact-general-numbers,
-    .contact-specified-numbers {
-        font-size: 15px;
-    } 
-}
-
-@media all and (max-width: 1281px) {
-    .front-first p:nth-child(2) {
-        left: 38%;
+        left: 48%;
     }
 
     .front-second p {
-        left: 33%;
+        font-size: 18px;
+        left: 46%;
+        top: 54%;
     }
 
     .front-third p {
-        left: 36%;
+        font-size: 16px;
+        left: 46%;
+        top: 53%;
+    }
+
+    .back-first {
+        font-size: 14px;
+    }
+
+    .back-second {
+        font-size: 14px;
+    }
+
+    .back-third {
+        font-size: 16px;
     }
 
     .contact-general-numbers,
     .contact-specified-numbers {
-        font-size: 18px;
+        font-size: 14px;
+    }
+    
+    #main-footer .company-footer p {
+        font-size: 14px;
     }
 }
 
-@media all and (max-width: 1367px) {
+
+@media all and (min-width: 1026px) and (max-width: 1281px) {
+
+      .front-first p:nth-child(2) {
+        font-size: 24px;
+        left: 43%;
+    }
+
+    .front-second p {
+        font-size: 23px;
+        left: 40%;
+        top: 54%;
+    }
+
+    .front-third p {
+        font-size: 22px;
+        left: 42%;
+        top: 54%;
+    }
+
+    .back-first {
+        font-size: 16px;
+    }
+
+    .back-second {
+        font-size: 16px;
+    }
+
+    .back-third {
+        font-size: 16px;
+    }
+    .contact-general-numbers,
+    .contact-specified-numbers {
+        font-size: 17px;
+    }
+}
+
+@media all and (min-width: 1282px) and (max-width: 1367px) {
     .wrapper {
         width: 99%;
     }
@@ -75,7 +102,10 @@
     }
 }
 
-@media all and (max-width: 1441px) {
+
+
+@media all and (min-width: 1368px) and (max-width: 1441px) {
+    
     .front-first p:nth-child(2) {
         left: 38%;
     }
@@ -85,8 +115,6 @@
     }
 
     .front-third p {
-        left: 37%;
+        left: 36%;
     }
 }
-
-
