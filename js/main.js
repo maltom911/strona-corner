@@ -30,7 +30,7 @@ $(window).scroll(function () {
 
 /*scroll count*/
 function animateFlipBox() {
-    if ($(window).scrollTop() >= 709) {
+    if ($(window).scrollTop() >= 623) {
         $('.count').each(function () {
             $(this).prop('Counter', 0).animate({
                 Counter: $(this).attr('data-text')

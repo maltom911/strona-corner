@@ -297,11 +297,11 @@ h1 {
     -moz-transform-style: preserve-3d;
     -webkit-backface-visibility: hidden;
     -moz-backface-visibility: hidden;
-    -webkit-transition: all .4s ease-in-out;
-    -moz-transition: all .4s ease-in-out;
-    -ms-transition: all .4s ease-in-out;
-    -o-transition: all .4s ease-in-out;
-    transition: all .4s ease-in-out;
+    -webkit-transition: all .5s ease-in;
+    -moz-transition: all .5s ease-in;
+    -ms-transition: all .5s ease-in;
+    -o-transition: all .5s ease-in;
+    transition: all .5s ease-in;
 }
 
 .wrapper .back {
@@ -316,11 +316,11 @@ h1 {
     -moz-transform-style: preserve-3d;
     -webkit-backface-visibility: hidden;
     -moz-backface-visibility: hidden;
-    -webkit-transition: all .4s ease-in-out;
-    -moz-transition: all .4s ease-in-out;
-    -ms-transition: all .4s ease-in-out;
-    -o-transition: all .4s ease-in-out;
-    transition: all .4s ease-in-out;
+    -webkit-transition: all .5s ease-in;
+    -moz-transition: all .5s ease-in;
+    -ms-transition: all .5s ease-in;
+    -o-transition: all .5s ease-in;
+    transition: all .5s ease-in;
 }
 
 .wrapper.flip .front {

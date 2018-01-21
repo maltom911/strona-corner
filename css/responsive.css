@@ -49,7 +49,7 @@
     .contact-specified-numbers {
         font-size: 14px;
     }
-    
+
     #main-footer .company-footer p {
         font-size: 14px;
     }
@@ -58,7 +58,20 @@
 
 @media all and (min-width: 1026px) and (max-width: 1281px) {
 
-      .front-first p:nth-child(2) {
+    .count-container {
+        width: 90px;
+        height: 90px;
+    }
+
+    .count {
+        font-size: 38px;
+    }
+
+    .wrapper {
+        width: 99%;
+    }
+
+    .front-first p:nth-child(2) {
         font-size: 24px;
         left: 43%;
     }
@@ -93,19 +106,44 @@
 }
 
 @media all and (min-width: 1282px) and (max-width: 1367px) {
+    .count-container {
+        width: 90px;
+        height: 90px;
+    }
+
+    .count {
+        font-size: 38px;
+    }
+
     .wrapper {
         width: 99%;
     }
+
+    .front-first p:nth-child(2) {
+        font-size: 27px;
+    }
+
+    .front-second p {
+        font-size: 26px;
+        left: 26%;
+        top: 54%;
+    }
+
+    .front-third p {
+        font-size: 26px;
+        left: 30%;
+        top: 54%;
+    }
     .contact-general-numbers,
     .contact-specified-numbers {
-        font-size: 19px;
+        font-size: 15px;
     }
 }
 
 
 
 @media all and (min-width: 1368px) and (max-width: 1441px) {
-    
+
     .front-first p:nth-child(2) {
         left: 38%;
     }
